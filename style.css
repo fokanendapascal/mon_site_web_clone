@@ -1,4 +1,36 @@
-#top-banner {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: skyblue;
+  margin: 2em;
+  width:100%
+}
+
+h1{
+  font-size: 50px;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+p{
+  font-size: 16px;
+  padding: 2px;
+}
+
+li {
+  margin-left: 3em;
+  padding: 5px;
+}
+
+
+/*#top-banner {
   color : rgb(255,255,255);
     font-size: 30px;
 
@@ -77,5 +109,5 @@
   margin-left: 300px;
   margin-top: 40px;
 }
-
+*/
 
